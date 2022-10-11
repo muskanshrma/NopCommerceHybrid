@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/java/FeatureFiles"},
+        features = {"src/test/java/FeatureFiles/tctc001.feature"},
         glue = {"StepDefinition"},
         monochrome = true,
         plugin = {"pretty", "json:Report/Cucumber.json", "junit:Report/XMLReport.xml",
